@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below and cite
+  the external dataset separately.
+title: "Impact-Aware Fraud Prioritization"
+type: software
+authors:
+  - family-names: "Platonov"
+    given-names: "Anton"
+    affiliation: "Hochschule Bielefeld – University of Applied Sciences and Arts (HSBI)"
+version: 0.1.0
+license: MIT
+abstract: >-
+  Reproducible software for a budget-conditioned learning-to-rank experiment
+  that prioritizes credit-card transactions under limited investigation
+  capacity and evaluates Fraud capture separately from Fraud-Amount-proxy
+  coverage.
+keywords:
+  - fraud detection
+  - learning to rank
+  - credit-card transactions
+  - limited investigation capacity
+  - reproducible research

@@ -1,0 +1,53 @@
+{
+  "budget_grid": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500
+  ],
+  "candidate_pool_size": 1000,
+  "class_counts": {
+    "fraud": 473,
+    "legitimate": 283253
+  },
+  "deduplicated_dataframe_sha256": "525bfe7a3155e7a5b01cf52ffdacec38a09725667b307cb6c553047c28120875",
+  "deduplicated_row_count": 283726,
+  "outer_seeds": [
+    42,
+    7,
+    13,
+    123,
+    202
+  ],
+  "provenance": {
+    "sources": [
+      {
+        "fields": [
+          "raw_row_count",
+          "deduplicated_row_count",
+          "class_counts",
+          "raw_sha256",
+          "deduplicated_dataframe_sha256"
+        ],
+        "path": "artifacts/thesis_presentation/data/tables/t_dataset_final.csv",
+        "registered_sha256": "6221d8608369246a3547c6980d57090b1f261b0159c2297862adfd4665f1fdb9",
+        "tag": "thesis-publication-ready-v1"
+      },
+      {
+        "fields": [
+          "outer_seeds",
+          "candidate_pool_size",
+          "budget_grid"
+        ],
+        "path": "outputs/ranker_gain_validation_20260726T131310Z/selection_freeze/selection_manifest.json",
+        "registered_sha256": "51c18e430b090c8a78bf0aa2ec6b318200c27de0c6209feeab8b72b5d6b66602",
+        "tag": "thesis-publication-ready-v1"
+      }
+    ]
+  },
+  "raw_row_count": 284807,
+  "raw_sha256": "76274b691b16a6c49d3f159c883398e03ccd6d1ee12d9d8ee38f4b4b98551a89"
+}

@@ -1,0 +1,57 @@
+# Generated output roots (source-only release policy)
+/artifacts/
+/outputs/
+/generated/
+/thesis_build/
+
+# Local input data and external thesis references
+/data/creditcard.csv
+/data/.creditcard-download-*/
+/Impact_Aware*.pdf
+/*Thesis*.pdf
+/*thesis*.pdf
+/*Masterarbeit*.pdf
+/*masterarbeit*.pdf
+
+# Python caches, tooling and coverage
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Virtual environments and packaging
+/.tools/
+.venv/
+venv/
+env/
+*.venv/
+dist/
+build/
+*.egg-info/
+
+# IDE, OS and local configuration
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Local LaTeX compiler by-products outside thesis_build/
+*.aux
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz

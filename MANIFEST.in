@@ -1,0 +1,23 @@
+include pyproject.toml
+include README.md
+include LICENSE
+include CITATION.cff
+include MANIFEST.in
+recursive-include src/fraud_detection *.py
+
+prune .github
+prune tests
+prune scripts
+prune environment
+prune docs
+prune data
+prune reference_results
+prune generated
+prune outputs
+prune thesis_build
+exclude AGENTS.md
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.pyo
+global-exclude *.pdf
+global-exclude *.egg-info

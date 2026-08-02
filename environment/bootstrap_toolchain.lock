@@ -1,0 +1,9 @@
+schema=1
+uv_version=0.12.1
+cpython_version=3.12.13
+asset=windows|x86_64|uv-x86_64-pc-windows-msvc.zip|8fcb0cb46e1229065e344758980924e569bef5882ef45f46fada8fb24e06b74a
+asset=windows|aarch64|uv-aarch64-pc-windows-msvc.zip|9bc7c18e616230fa2dc6fb24bc3afde18a95c2b5c9433de747e9502c66041568
+asset=macos|x86_64|uv-x86_64-apple-darwin.tar.gz|69d9f9a00337f25a50dcb13882052da08b8469bac11091c98c5694c3c6721467
+asset=macos|aarch64|uv-aarch64-apple-darwin.tar.gz|77d2906988e8074fd43f2f329ec452ebbf9b0c257ba1c66451c71de70a6baf42
+asset=linux-gnu|x86_64|uv-x86_64-unknown-linux-gnu.tar.gz|90b2f223fb69d19db49e117da601f64978593417988530aa733d456141b4bcbb
+asset=linux-gnu|aarch64|uv-aarch64-unknown-linux-gnu.tar.gz|769d373e146692c639b5fbaae33b331c297a32e03d30448772051902df52bbf4
